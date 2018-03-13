@@ -24,10 +24,10 @@ public class RectangleCalculator {
             System.out.println("Perimeter:  " + perimeter);
           
             System.out.print("\nContinue? (Y/N): ");
-            choice = sc.next();
-            if (choice.equalsIgnoreCase("n"))
-            	System.out.println("Bye!");
+            choice = sc.next();           
+            	
         }
         sc.close();
+        System.out.println("Bye!");
     }
 }
